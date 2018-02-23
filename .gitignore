@@ -1,0 +1,5 @@
+target/
+.idea/
+project/
+.ivy2/
+.sbt/
