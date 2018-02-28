@@ -25,7 +25,7 @@ object KafkaConsumer extends LazyLogging {
 
       logger.info(s"Consuming offset ${fromOffset}")
 
-      val partition = 0
+      val partition = 1
       val subscription = Subscriptions.assignmentWithOffset(
         new TopicPartition("sample", partition) -> fromOffset
       )
